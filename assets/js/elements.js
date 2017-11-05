@@ -544,12 +544,7 @@ jQuery(function($) {
 		}
 	}
 
-	// Audio.js
-	fooday.audio = function() {
-		audiojs.events.ready(function() {
-	    	var as = audiojs.createAll();
-	  	});
-	}
+
 
 	// Quanlity Product in Single Page
 	fooday.product_quanlity = function() {
@@ -574,7 +569,7 @@ jQuery(function($) {
 	// Initialize function when document load
 	$(document).ready(function(){
 		fooday.mainFuntion();
-		fooday.audio();
+		
 		fooday.sc_product();
 		fooday.sc_partner();
 		fooday.sc_counter();
