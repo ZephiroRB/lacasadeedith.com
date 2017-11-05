@@ -1,18 +1,1 @@
-jQuery(function($) {
-    "use strict";
-    var fooday = window.fooday || {};
-    fooday.widgetFuntion = function(){
-		$('.widget-gallery.carousel').each(function(){
-			$(this).find('.main-slider').slick({
-				fade:false,
-			 	slidesToShow: 1,
-			 	slidesToScroll: 1,
-			 	dots: true,
-			 	focusOnSelect: true
-			});
-		});
-    }
-    $(document).ready(function(){
-		fooday.widgetFuntion();
-	});
-});
+jQuery(function(i){"use strict";var n=window.fooday||{};n.widgetFuntion=function(){i(".widget-gallery.carousel").each(function(){i(this).find(".main-slider").slick({fade:!1,slidesToShow:1,slidesToScroll:1,dots:!0,focusOnSelect:!0})})},i(document).ready(function(){n.widgetFuntion()})});
